@@ -1,0 +1,71 @@
+/* Reset Básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Um azul mais suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #008cba; /* Azul marinho */
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+/* Campos de Input */
+.input-group {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #b3d9ff; /* Borda azul clara */
+    border-radius: 6px;
+    font-size: 1.2rem;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #008cba; /* Borda mais escura ao focar */
+    outline: none;
+}
+
+#info-box {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border-radius: 4px;
+    color: #008cba;
+    font-size: 0.9rem;
+}

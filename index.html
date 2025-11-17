@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Metros ⇆ Pés</h1>
+        <p>Digite um valor em um dos campos e veja o resultado no outro.</p>
+
+        <div class="input-group">
+            <label for="metros">Metros (m)</label>
+            <input type="number" id="metros" placeholder="0" data-unidade="m">
+        </div>
+
+        <div class="input-group">
+            <label for="pes">Pés (ft)</label>
+            <input type="number" id="pes" placeholder="0" data-unidade="ft">
+        </div>
+
+        <div id="info-box">
+            <p>Fórmula: 1 metro ≈ 3.28084 pés</p>
+        </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
